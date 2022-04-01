@@ -149,11 +149,11 @@
                 <div class="splide">
                     <div class="splide__track">
                           <ul class="splide__list">
-                              <li class="splide__slide"><img src="/images/masterplan/masterplan1.jpg" alt=""></li>
-                              <li class="splide__slide"><img src="/images/masterplan/masterplan2.jpg" alt=""></li>
-                              <li class="splide__slide"><img src="/images/masterplan/masterplan3.jpg" alt=""></li>
-                              <li class="splide__slide"><img src="/images/masterplan/masterplan4.jpg" alt=""></li>
-                              <li class="splide__slide"><img src="/images/masterplan/masterplan5.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="images/masterplan/masterplan1.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="images/masterplan/masterplan2.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="images/masterplan/masterplan3.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="images/masterplan/masterplan4.jpg" alt=""></li>
+                              <li class="splide__slide"><img src="images/masterplan/masterplan5.jpg" alt=""></li>
                               
                           </ul>
                     </div>
@@ -712,8 +712,10 @@
 
     <script src="js/splide.min.js"></script>
     <script>
-        var splide = new Splide( '.splide' );
-splide.mount();
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '.splide' );
+          splide.mount();
+        } );
       </script>
 </body>
 <script>
